@@ -2,7 +2,7 @@
   <PropertyGroup>
     <PublishAssetsDirectory>$(MSBuildProjectDirectory)\dist</PublishAssetsDirectory>
     <ShouldRunNpmInstall>false</ShouldRunNpmInstall>
-    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <!-- Disables running the build (or compile) script located on package.json during Build -->
     <ShouldRunBuildScript>false</ShouldRunBuildScript>
   </PropertyGroup>
 </Project>
